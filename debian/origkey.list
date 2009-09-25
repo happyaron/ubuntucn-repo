@@ -1,0 +1,7 @@
+pub   1024D/437D05B5 2004-09-12
+uid                  Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>
+sub   2048g/79164387 2004-09-12
+
+pub   1024D/FBB75451 2004-12-30
+uid                  Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>
+

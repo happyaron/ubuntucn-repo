@@ -1,10 +1,10 @@
 ## Please report all bugs to https://launchpad.net/ubuntu-china-repo
 
-deb http://ubuntu.cn99.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - CN99 Mirror
-##deb-src http://ubuntu.cn99.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - CN99 Mirror
-
-#deb http://mirrors.sohu.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - SOHU Mirror
+deb http://mirrors.sohu.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - SOHU Mirror
 ##deb-src http://mirrors.sohu.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - CN99 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - CN99 Mirror
 
 #deb http://ubuntu.cn99.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - archive.ubuntu.org.cn
 ##deb-src http://ubuntu.cn99.com/ubuntu-cn/medibuntu hardy free non-free #Medibuntu - ubuntucn - archive.ubuntu.org.cn
