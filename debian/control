@@ -3,6 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Aron Xu <happyaron.xu@gmail.com>
 Standards-Version: 3.8.3
+Homepage: http://github.com/happyaron/ubuntucn-repo
 
 Package: ubuntucn-repo
 Priority: important
