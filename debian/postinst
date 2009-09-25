@@ -1,0 +1,31 @@
+#!/bin/sh
+
+RELEASE=`lsb_release -cs`
+ppalist="amule-stable awn-testing bisigi blueman breathe capricorn-lyx chmsee chromium-daily c-korn-vlc clutter-edgers compiz debfx-vbox do-core exaile-devel firerabbit galaxium geany globalmenu gmchess gnome-colors gnome-games-experimental gnome-terminator gnote-stable gscrot-shutter gstreamer gtg gwibber-daily gwibber ibus-dev kubuntu-updates liferea markuz matthaeus123-gimp midori moblin-compatibilty mono-edge moovida mozilla-security pidgin rvm specto spicebird sudbury telepathy tp-fan transmissionbt tualatrix ubuntu-x vicox webkit xbmc-linux"
+
+if [ -x /usr/bin/apt-key ]; then
+    /usr/bin/apt-key list > /usr/share/ubuntucn-repo/origkey.list
+    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ubuntucn-keyring.gpg;
+    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/medibuntu-keyring.gpg;
+    for tmp in $ppalist; do
+        /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ppa/${tmp}.gpg
+    done
+fi
+
+if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
+   mv /etc/apt/sources.list.d/ubuntucn.list /etc/apt/sources.list.d/ubuntucn.list.bak
+fi
+
+if [ -L /etc/apt/sources.list.d/medibuntu.list ]; then
+   mv /etc/apt/sources.list.d/medibuntu.list /etc/apt/sources.list.d/medibuntu.list.bak
+fi
+
+if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
+   mv /etc/apt/sources.list.d/ppa-ubuntucn.list /etc/apt/sources.list.d/ppa-ubuntucn.list.bak
+fi
+
+if [ -d /etc/apt/sources.list.d/ubuntucn-repo ]; then
+   ln -s /etc/apt/sources.list.d/ubuntucn-repo/ubuntucn/ubuntucn.${RELEASE} /etc/apt/sources.list.d/ubuntucn.list;
+   ln -s /etc/apt/sources.list.d/ubuntucn-repo/medibuntu/medibuntu.${RELEASE} /etc/apt/sources.list.d/medibuntu-ubuntucn.list
+   ln -s /etc/apt/sources.list.d/ubuntucn-repo/ppa/ppa.${RELEASE} /etc/apt/sources.list.d/ppa-ubuntucn.list
+fi

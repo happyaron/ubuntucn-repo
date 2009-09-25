@@ -1,0 +1,17 @@
+Source: ubuntucn-repo
+Section: misc
+Priority: optional
+Maintainer: Aron Xu <happyaron.xu@gmail.com>
+Standards-Version: 3.8.3
+
+Package: ubuntucn-repo
+Priority: important
+Architecture: all
+Provides: ubuntucn-keyring, medibuntu-keyring
+Conflicts: ubuntucn-keyring, medibuntu-keyring
+Replaces: ubuntucn-keyring, medibuntu-keyring
+Depends: gnupg (>= 1.0.6-4)
+Description: Ubuntu China LoCo Software Repository configuration
+ The Ubuntu China LoCo Software Repository contains lots of PPA and other
+ third-party packages for Chinese users.
+ This package contains the repository keyrings and sources.list.d entries.

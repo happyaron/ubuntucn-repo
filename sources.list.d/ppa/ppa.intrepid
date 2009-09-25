@@ -1,0 +1,329 @@
+## Please report all bugs to https://launchpad.net/ubuntu-china-repo
+
+## Defaut on:
+
+## amule-releases PPA mirror list:
+
+deb http://ppa.launchpad.net/amule-releases/ppa/ubuntu intrepid main # amule-releases PPA - Launchpad
+##deb-src http://ppa.launchpad.net/amule-releases/ppa/ubuntu intrepid main # amule-releases PPA - Launchpad
+
+
+## awn-testing PPA mirror list:
+
+deb http://ppa.launchpad.net/awn-testing/ppa/ubuntu intrepid main # awn-testing PPA - Launchpad
+##deb-src http://ppa.launchpad.net/awn-testing/ppa/ubuntu intrepid main # awn-testing PPA - Launchpad
+
+
+## bisigi PPA mirror list:
+
+deb http://ppa.launchpad.net/bisigi/ppa/ubuntu intrepid main # bisigi PPA - Launchpad
+##deb-src http://ppa.launchpad.net/bisigi/ppa/ubuntu intrepid main # bisigi PPA - Launchpad
+
+
+## blueman PPA mirror list:
+
+deb http://ppa.launchpad.net/blueman/ppa/ubuntu intrepid main # blueman PPA - Launchpad
+##deb-src http://ppa.launchpad.net/blueman/ppa/ubuntu intrepid main # blueman PPA - Launchpad
+
+
+## breathe-dev PPA mirror list:
+
+deb http://ppa.launchpad.net/breathe-dev/ppa/ubuntu intrepid main # breathe-dev PPA - Launchpad
+##deb-src http://ppa.launchpad.net/breathe-dev/ppa/ubuntu intrepid main # breathe-dev PPA - Launchpad
+
+
+## c-korn PPA mirror list:
+
+deb http://ppa.launchpad.net/c-korn/vlc/ubuntu intrepid main # c-korn-vlc PPA - Launchpad
+##deb-src http://ppa.launchpad.net/c-korn/vlc/ubuntu intrepid main # c-korn-vlc PPA - Launchpad
+
+
+## chmsee PPA mirror list:
+
+deb http://ppa.launchpad.net/chmsee/ppa/ubuntu intrepid main # chmsee PPA - Launchpad
+##deb-src http://ppa.launchpad.net/chmsee/ppa/ubuntu intrepid main # chmsee PPA - Launchpad
+
+
+## chromium-daily PPA mirror list:
+
+deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu intrepid main # chromium-daily PPA - Launchpad
+##deb-src http://ppa.launchpad.net/chromium-daily/ppa/ubuntu intrepid main # chromium-daily PPA - Launchpad
+
+
+## debfx-virtualbox PPA mirror list:
+
+deb http://ppa.launchpad.net/debfx/virtualbox/ubuntu intrepid main # debfx-virtualbox PPA - Launchpad
+##deb-src http://ppa.launchpad.net/debfx/virtualbox/ubuntu intrepid main # debfx-virtualbox PPA - Launchpad
+
+
+## do-core PPA mirror list:
+
+deb http://ppa.launchpad.net/do-core/ppa/ubuntu intrepid main # do-core PPA - Launchpad
+##deb-src http://ppa.launchpad.net/do-core/ppa/ubuntu intrepid main # do-core PPA - Launchpad
+
+
+## exaile-devel PPA mirror list:
+
+deb http://ppa.launchpad.net/exaile-devel/ppa/ubuntu intrepid main # exaile-devel PPA - Launchpad
+##deb-src http://ppa.launchpad.net/exaile-devel/ppa/ubuntu intrepid main # exaile-devel PPA - Launchpad
+
+
+## galaxium PPA mirror list:
+
+deb http://ppa.launchpad.net/galaxium/ppa/ubuntu intrepid main # galaxium PPA - Launchpad
+##deb-src http://ppa.launchpad.net/galaxium/ppa/ubuntu intrepid main # galaxium PPA - Launchpad
+
+
+## gmchess PPA mirror list:
+
+deb http://ppa.launchpad.net/gmchess/ppa/ubuntu intrepid main # gmchess PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gmchess/ppa/ubuntu intrepid main # gmchess PPA - Launchpad
+
+
+## geany-dev PPA mirror list:
+
+deb http://ppa.launchpad.net/geany-dev/ppa/ubuntu intrepid main # geany-dev PPA - Launchpad
+##deb-src http://ppa.launchpad.net/geany-dev/ppa/ubuntu intrepid main # geany-dev PPA - Launchpad
+
+
+## globalmenu-team PPA mirror list:
+
+deb http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu intrepid main # globalmenu-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu intrepid main # globalmenu-team PPA - Launchpad
+
+
+## gnome-colors-packagers PPA mirror list:
+
+deb http://ppa.launchpad.net/gnome-colors-packagers/ppa/ubuntu intrepid main # gnome-colors-packagers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnome-colors-packagers/ppa/ubuntu intrepid main # gnome-colors-packagers PPA - Launchpad
+
+
+## gnome-terminator PPA mirror list:
+
+deb http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu intrepid main # gnome-terminator PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu intrepid main # gnome-terminator PPA - Launchpad
+
+
+## gnote PPA mirror list:
+
+deb http://ppa.launchpad.net/gnote/ppa/ubuntu intrepid main # gnote PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnote/ppa/ubuntu intrepid main # gnote PPA - Launchpad
+
+
+## gtg PPA mirror list:
+
+deb http://ppa.launchpad.net/gtg/ppa/ubuntu intrepid main # gtg PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gtg/ppa/ubuntu intrepid main # gtg PPA - Launchpad
+
+
+## gwibber-daily PPA mirror list:
+
+deb http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu intrepid main # gwibber-daily PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu intrepid main # gwibber-daily PPA - Launchpad
+
+
+## gwibber-team PPA mirror list:
+
+deb http://ppa.launchpad.net/gwibber-team/ppa/ubuntu intrepid main # gwibber-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gwibber-team/ppa/ubuntu intrepid main # gwibber-team PPA - Launchpad
+
+
+## ibus-dev PPA mirror list:
+
+deb http://ppa.launchpad.net/ibus-dev/ibus-1.2-intrepid/ubuntu intrepid main # ibus-dev PPA - Launchpad
+##deb-src http://ppa.launchpad.net/ibus-dev/ibus-1.2-intrepid/ubuntu intrepid main # ibus-dev PPA - Launchpad
+
+
+## kubuntu-ppa PPA mirror list:
+
+deb http://ppa.launchpad.net/kubuntu-ppa/ppa/ubuntu intrepid main # kubuntu-ppa PPA - Launchpad
+##deb-src http://ppa.launchpad.net/kubuntu-ppa/ppa/ubuntu intrepid main # kubuntu-ppa PPA - Launchpad
+
+## kubuntu-ppa PPA mirror list:
+
+deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu intrepid main # kubuntu-ppa PPA - Launchpad
+##deb-src http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu intrepid main # kubuntu-ppa PPA - Launchpad
+
+
+## liferea PPA mirror list:
+
+deb http://ppa.launchpad.net/liferea/ppa/ubuntu intrepid main # liferea PPA - Launchpad
+##deb-src http://ppa.launchpad.net/liferea/ppa/ubuntu intrepid main # liferea PPA - Launchpad
+
+
+## lyx PPA mirror list:
+
+deb http://ppa.launchpad.net/lyx/ppa/ubuntu intrepid main # lyx PPA - Launchpad
+##deb-src http://ppa.launchpad.net/lyx/ppa/ubuntu intrepid main # lyx PPA - Launchpad
+
+
+## markuz PPA mirror list:
+
+deb http://ppa.launchpad.net/markuz/ppa/ubuntu intrepid main # markuz PPA - Launchpad
+##deb-src http://ppa.launchpad.net/markuz/ppa/ubuntu intrepid main # markuz PPA - Launchpad
+
+
+## matthaeus123-gimp PPA mirror list:
+
+deb http://ppa.launchpad.net/matthaeus123/mrw-gimp-svn/ubuntu intrepid main # matthaeus123-gimp PPA - Launchpad
+##deb-src http://ppa.launchpad.net/matthaeus123/mrw-gimp-svn/ubuntu intrepid main # matthaeus123-gimp PPA - Launchpad
+
+
+## midori PPA mirror list:
+
+deb http://ppa.launchpad.net/midori/ppa/ubuntu intrepid main # midori PPA - Launchpad
+##deb-src http://ppa.launchpad.net/midori/ppa/ubuntu intrepid main # midori PPA - Launchpad
+
+
+## moovida-packagers PPA mirror list:
+
+deb http://ppa.launchpad.net/moovida-packagers/ppa/ubuntu intrepid main # moovida-packagers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/moovida-packagers/ppa/ubuntu intrepid main # moovida-packagers PPA - Launchpad
+
+
+## moblin PPA mirror list:
+
+deb http://ppa.launchpad.net/moblin/ppa/ubuntu intrepid main # moblin PPA - Launchpad
+##deb-src http://ppa.launchpad.net/moblin/ppa/ubuntu intrepid main # moblin PPA - Launchpad
+
+
+## njpatel-clutter PPA mirror list:
+
+deb http://ppa.launchpad.net/njpatel/clutter-edgers/ubuntu intrepid main # njpatel-clutter PPA - Launchpad
+##deb-src http://ppa.launchpad.net/njpatel/clutter-edgers/ubuntu intrepid main # njpatel-clutter PPA - Launchpad
+
+
+## pidgin-developers PPA mirror list:
+
+deb http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu intrepid main # pidgin-developers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu intrepid main # pidgin-developers PPA - Launchpad
+
+
+## shutter PPA mirror list:
+
+deb http://ppa.launchpad.net/shutter/ppa/ubuntu intrepid main # shutter PPA - Launchpad
+##deb-src http://ppa.launchpad.net/shutter/ppa/ubuntu intrepid main # shutter PPA - Launchpad
+
+
+## specto PPA mirror list:
+
+deb http://ppa.launchpad.net/specto/ppa/ubuntu intrepid main # specto PPA - Launchpad
+##deb-src http://ppa.launchpad.net/specto/ppa/ubuntu intrepid main # specto PPA - Launchpad
+
+
+## spicebird PPA mirror list:
+
+deb http://ppa.launchpad.net/spicebird/ppa/ubuntu intrepid main # spicebird PPA - Launchpad
+##deb-src http://ppa.launchpad.net/spicebird/ppa/ubuntu intrepid main # spicebird PPA - Launchpad
+
+
+## sudbury-team PPA mirror list:
+
+deb http://ppa.launchpad.net/sudbury-team/ppa/ubuntu intrepid main # sudbury-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/sudbury-team/ppa/ubuntu intrepid main # sudbury-team PPA - Launchpad
+
+
+## telepathy PPA mirror list:
+
+deb http://ppa.launchpad.net/telepathy/ppa/ubuntu intrepid main # telepathy PPA - Launchpad
+##deb-src http://ppa.launchpad.net/telepathy/ppa/ubuntu intrepid main # telepathy PPA - Launchpad
+
+
+## team-xbmc PPA mirror list:
+
+deb http://ppa.launchpad.net/team-xbmc/ppa/ubuntu intrepid main # team-xbmc PPA - Launchpad
+##deb-src http://ppa.launchpad.net/team-xbmc/ppa/ubuntu intrepid main # team-xbmc PPA - Launchpad
+
+
+## tp-fan PPA mirror list:
+
+deb http://ppa.launchpad.net/tp-fan/ppa/ubuntu intrepid main # tp-fan PPA - Launchpad
+##deb-src http://ppa.launchpad.net/tp-fan/ppa/ubuntu intrepid main # tp-fan PPA - Launchpad
+
+
+## transmissionbt PPA mirror list:
+
+deb http://ppa.launchpad.net/transmissionbt/ppa/ubuntu intrepid main # transmissionbt PPA - Launchpad
+##deb-src http://ppa.launchpad.net/transmissionbt/ppa/ubuntu intrepid main # transmissionbt PPA - Launchpad
+
+
+## tualatrix PPA mirror list:
+
+#deb http://ppa.launchpad.net/tualatrix/ppa/ubuntu intrepid main # tualatrix PPA - Launchpad
+##deb-src http://ppa.launchpad.net/tualatrix/ppa/ubuntu intrepid main # tualatrix PPA - Launchpad
+
+
+## ubuntu-mozilla-security PPA mirror list:
+
+deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu intrepid main # ubuntu-mozilla-security PPA - Launchpad
+##deb-src http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu intrepid main # ubuntu-mozilla-security PPA - Launchpad
+
+
+## webkit-team PPA mirror list:
+
+deb http://ppa.launchpad.net/webkit-team/ppa/ubuntu intrepid main # webkit-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/webkit-team/ppa/ubuntu intrepid main # webkit-team PPA - Launchpad
+
+
+## Defaut off:
+
+## compiz PPA mirror list:
+
+#deb http://ppa.launchpad.net/compiz/ppa/ubuntu intrepid main # compiz PPA - Launchpad
+##deb-src http://ppa.launchpad.net/compiz/ppa/ubuntu intrepid main # compiz PPA - Launchpad
+
+
+## debfx-qt PPA mirror list:
+
+#deb http://ppa.launchpad.net/debfx/qt/ubuntu intrepid main # debfx-qt PPA - Launchpad
+##deb-src http://ppa.launchpad.net/debfx/qt/ubuntu intrepid main # debfx-qt PPA - Launchpad
+
+
+## firerabbit PPA mirror list:
+
+#deb http://ppa.launchpad.net/firerabbit/ppa/ubuntu intrepid main # firerabbit PPA - Launchpad
+##deb-src http://ppa.launchpad.net/firerabbit/ppa/ubuntu intrepid main # firerabbit PPA - Launchpad
+
+
+## gnome-games-experimental PPA mirror list:
+
+#deb http://ppa.launchpad.net/gnome-games-experimental/ppa/ubuntu intrepid main # gnome-games-experimental PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnome-games-experimental/ppa/ubuntu intrepid main # gnome-games-experimental PPA - Launchpad
+
+
+## gstreamer-developers PPA mirror list:
+
+#deb http://ppa.launchpad.net/gstreamer-developers/ppa/ubuntu intrepid main # gstreamer-developers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gstreamer-developers/ppa/ubuntu intrepid main # gstreamer-developers PPA - Launchpad
+
+
+## mono-edge PPA mirror list:
+
+#deb http://ppa.launchpad.net/mono-edge/ppa/ubuntu intrepid main # mono-edge PPA - Launchpad
+##deb-src http://ppa.launchpad.net/mono-edge/ppa/ubuntu intrepid main # mono-edge PPA - Launchpad
+
+
+## rvm-mplayer PPA mirror list:
+
+#deb http://ppa.launchpad.net/rvm/mplayer/ubuntu intrepid main # rvm-mplayer PPA - Launchpad
+##deb-src http://ppa.launchpad.net/rvm/mplayer/ubuntu intrepid main # rvm-mplayer PPA - Launchpad
+
+
+## rvm-smplayer PPA mirror list:
+
+#deb http://ppa.launchpad.net/rvm/smplayer/ubuntu intrepid main # rvm-smplayer PPA - Launchpad
+##deb-src http://ppa.launchpad.net/rvm/smplayer/ubuntu intrepid main # rvm-smplayer PPA - Launchpad
+
+
+## ubuntu-x-swat PPA mirror list:
+
+#deb http://ppa.launchpad.net/ubuntu-x-swat/x-updates/ubuntu intrepid main # ubuntu-x-swat PPA - Launchpad
+##deb-src http://ppa.launchpad.net/ubuntu-x-swat/x-updates/ubuntu intrepid main # ubuntu-x-swat PPA - Launchpad
+
+
+## vicox PPA mirror list:
+
+#deb http://ppa.launchpad.net/vicox/ppa/ubuntu intrepid main # vicox PPA - Launchpad
+##deb-src http://ppa.launchpad.net/vicox/ppa/ubuntu intrepid main # vicox PPA - Launchpad
+
+
