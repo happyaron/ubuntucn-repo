@@ -30,6 +30,8 @@ binary-indep: checkroot
 	$(install_dir) debian/tmp/DEBIAN/
 	$(install_script) debian/postinst debian/tmp/DEBIAN/
 	$(install_script) debian/prerm debian/tmp/DEBIAN/
+#	$(install_script) debian/config debian/tmp/DEBIAN/
+#	$(install_file) debian/templates debian/tmp/DEBIAN/
 
 	$(install_dir) debian/tmp/usr/share/keyrings/ubuntucn-repo/
 	$(install_file) keyrings/*.gpg debian/tmp/usr/share/keyrings/ubuntucn-repo
@@ -37,17 +39,24 @@ binary-indep: checkroot
 	$(install_dir) debian/tmp/usr/share/keyrings/ubuntucn-repo/ppa/
 	$(install_file) keyrings/ppa/*.gpg debian/tmp/usr/share/keyrings/ubuntucn-repo/ppa
 
-	$(install_dir) debian/tmp/etc/apt/sources.list.d/ubuntucn-repo/ubuntucn
-	$(install_file) sources.list.d/ubuntucn/* debian/tmp/etc/apt/sources.list.d/ubuntucn-repo/ubuntucn/
-
-	$(install_dir) debian/tmp/etc/apt/sources.list.d/ubuntucn-repo/medibuntu
-	$(install_file) sources.list.d/medibuntu/* debian/tmp/etc/apt/sources.list.d/ubuntucn-repo/medibuntu/
-
-	$(install_dir) debian/tmp/etc/apt/sources.list.d/ubuntucn-repo/ppa
-	$(install_file) sources.list.d/ppa/* debian/tmp/etc/apt/sources.list.d/ubuntucn-repo/ppa/
-
 	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/
 	$(install_file) debian/origkey.list debian/tmp/usr/share/ubuntucn-repo/
+
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/cn99
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/cn99/ubuntucn
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/cn99/medibuntu
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/cn99/ppa
+	$(install_file) sources.list.d/cn99/ubuntucn/* debian/tmp/usr/share/ubuntucn-repo/sources/cn99/ubuntucn/
+	$(install_file) sources.list.d/cn99/medibuntu/* debian/tmp/usr/share/ubuntucn-repo/sources/cn99/medibuntu/
+	$(install_file) sources.list.d/cn99/ppa/* debian/tmp/usr/share/ubuntucn-repo/sources/cn99/ppa/
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/sohu
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/sohu/ubuntucn
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/sohu/medibuntu
+	$(install_dir) debian/tmp/usr/share/ubuntucn-repo/sources/sohu/ppa
+	$(install_file) sources.list.d/sohu/ubuntucn/* debian/tmp/usr/share/ubuntucn-repo/sources/sohu/ubuntucn/
+	$(install_file) sources.list.d/sohu/medibuntu/* debian/tmp/usr/share/ubuntucn-repo/sources/sohu/medibuntu/
+	$(install_file) sources.list.d/sohu/ppa/* debian/tmp/usr/share/ubuntucn-repo/sources/sohu/ppa/
 
 	$(install_dir) debian/tmp/usr/share/doc/ubuntucn-repo/
 	$(install_file) debian/changelog debian/tmp/usr/share/doc/ubuntucn-repo/
@@ -65,10 +74,9 @@ define checkdir
 	test -f keyrings/ubuntucn-keyring.gpg
 	test -f keyrings/medibuntu-keyring.gpg
 	test -d keyrings/ppa/
-	test -d sources.list.d/ubuntucn/
-	test -d sources.list.d/medibuntu/
-	test -d sources.list.d/ppa/
+	test -d sources.list.d/
 endef
+
 
 # Below here is fairly generic really
 

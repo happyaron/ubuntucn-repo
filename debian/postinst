@@ -1,31 +1,56 @@
 #!/bin/sh
+set -e
+#. /usr/share/debconf/confmodule
 
 RELEASE=`lsb_release -cs`
 ppalist="amule-stable awn-testing bisigi blueman breathe capricorn-lyx chmsee chromium-daily c-korn-vlc clutter-edgers compiz debfx-vbox do-core exaile-devel firerabbit galaxium geany globalmenu gmchess gnome-colors gnome-games-experimental gnome-terminator gnote-stable gscrot-shutter gstreamer gtg gwibber-daily gwibber ibus-dev kubuntu-updates liferea markuz matthaeus123-gimp midori moblin-compatibilty mono-edge moovida mozilla-security pidgin rvm specto spicebird sudbury telepathy tp-fan transmissionbt tualatrix ubuntu-x vicox webkit xbmc-linux"
 
 if [ -x /usr/bin/apt-key ]; then
     /usr/bin/apt-key list > /usr/share/ubuntucn-repo/origkey.list
-    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ubuntucn-keyring.gpg;
-    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/medibuntu-keyring.gpg;
+    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ubuntucn-keyring.gpg > /dev/null;
+    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/medibuntu-keyring.gpg > /dev/null;
     for tmp in $ppalist; do
-        /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ppa/${tmp}.gpg
+        /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ppa/${tmp}.gpg > /dev/null
     done
 fi
 
 if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
-   mv /etc/apt/sources.list.d/ubuntucn.list /etc/apt/sources.list.d/ubuntucn.list.bak
+   rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
 
-if [ -L /etc/apt/sources.list.d/medibuntu.list ]; then
-   mv /etc/apt/sources.list.d/medibuntu.list /etc/apt/sources.list.d/medibuntu.list.bak
+if [ -L /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
+   rm -f /etc/apt/sources.list.d/medibuntu-ubuntucn.list
 fi
 
 if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
-   mv /etc/apt/sources.list.d/ppa-ubuntucn.list /etc/apt/sources.list.d/ppa-ubuntucn.list.bak
+   rm -f /etc/apt/sources.list.d/ppa-ubuntucn.list
+fi
+setmirror="sohu"
+
+while true; do
+	printf "Which mirror do you want to choose? Choose a number or press any other key to accept default.\n 1 SOHU mirror(default)\n 2 CN99/163 mirror\n";
+	read input;
+	case $input in
+		1) printf "You have chosen SOHU mirror.\n"
+			setmirror="sohu"
+			break;;
+		2) printf "You have chosen CN99/163 mirror.\n"
+			setmirror="cn99"
+			break;;
+		*) printf "Default to SOHU mirror."
+			setmirror="sohu"
+			break;;
+	esac
+done
+printf "You should run \`sudo aptitude update' or reload source list via synaptic after this package's installation.\n"
+
+if [ ! -e /etc/apt/sources.list.d/ubuntucn.list ]; then
+	ln -s /usr/share/ubuntucn-repo/sources/${setmirror}/ubuntucn/ubuntucn.${RELEASE} /etc/apt/sources.list.d/ubuntucn.list;
+fi
+if [ ! -e /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
+	ln -s /usr/share/ubuntucn-repo/sources/${setmirror}/medibuntu/medibuntu.${RELEASE} /etc/apt/sources.list.d/medibuntu-ubuntucn.list;
+fi
+if [ ! -e /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
+	ln -s /usr/share/ubuntucn-repo/sources/${setmirror}/ppa/ppa.${RELEASE} /etc/apt/sources.list.d/ppa-ubuntucn.list;
 fi
 
-if [ -d /etc/apt/sources.list.d/ubuntucn-repo ]; then
-   ln -s /etc/apt/sources.list.d/ubuntucn-repo/ubuntucn/ubuntucn.${RELEASE} /etc/apt/sources.list.d/ubuntucn.list;
-   ln -s /etc/apt/sources.list.d/ubuntucn-repo/medibuntu/medibuntu.${RELEASE} /etc/apt/sources.list.d/medibuntu-ubuntucn.list
-   ln -s /etc/apt/sources.list.d/ubuntucn-repo/ppa/ppa.${RELEASE} /etc/apt/sources.list.d/ppa-ubuntucn.list
-fi

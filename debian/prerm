@@ -13,27 +13,21 @@ if [ -f /usr/share/ubuntucn-repo/origkey.list ]; then
 	done
 fi
 
-case "$1" in
-    remove|purge)
-	if [ -x /usr/bin/apt-key ]; then  # apt-key can only accept one argument each time
-		for tmp in $rmlist; do
-			/usr/bin/apt-key del $tmp
-		done
-	fi
-	;;
-esac
+if [ -x /usr/bin/apt-key ]; then  # apt-key can only accept one argument each time
+	for tmp in $rmlist; do
+		/usr/bin/apt-key del $tmp > /dev/null
+	done
+fi
 
-case "$1" in
-    remove|purge)
-	if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
-		rm -f /etc/apt/sources.list.d/ubuntucn.list
-	fi
-	if [ -L /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
-		rm -f /etc/apt/sources.list.d/medibuntu-ubuntucn.list
-	fi
-	if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
-		rm -f /etc/apt/sources.list.d/ppa-ubuntucn.list
-	fi
-	;;
-esac
+if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
+	rm -f /etc/apt/sources.list.d/ubuntucn.list
+fi
+if [ -L /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
+	rm -f /etc/apt/sources.list.d/medibuntu-ubuntucn.list
+fi
+if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
+	rm -f /etc/apt/sources.list.d/ppa-ubuntucn.list
+fi
+
+printf "You should run \`sudo aptitude update or reload source list via synaptic after this package's removal.\n"
 
