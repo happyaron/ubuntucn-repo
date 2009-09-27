@@ -29,5 +29,5 @@ if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
 	rm -f /etc/apt/sources.list.d/ppa-ubuntucn.list
 fi
 
-printf "You should run \`sudo aptitude update or reload source list via synaptic after this package's removal.\n"
+printf "You should run \`sudo aptitude update' or reload source list via synaptic after this package's removal.\n"
 
