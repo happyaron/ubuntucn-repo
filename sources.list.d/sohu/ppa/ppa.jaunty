@@ -1,0 +1,805 @@
+## Please report all bugs to https://launchpad.net/ubuntu-china-repo
+
+## Defaut on:
+
+## amule-releases PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - Launchpad
+##deb-src http://ppa.launchpad.net/amule-releases/ppa/ubuntu jaunty main # amule-releases PPA - Launchpad
+
+
+## awn-testing PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - Launchpad
+##deb-src http://ppa.launchpad.net/awn-testing/ppa/ubuntu jaunty main # awn-testing PPA - Launchpad
+
+
+## bisigi PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/bisigi/ppa/ubuntu jaunty main # bisigi PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/bisigi/ppa/ubuntu jaunty main # bisigi PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/bisigi/ppa/ubuntu jaunty main # bisigi PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/bisigi/ppa/ubuntu jaunty main # bisigi PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/bisigi/ppa/ubuntu jaunty main # bisigi PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/bisigi/ppa/ubuntu jaunty main # bisigi PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main # bisigi PPA - Launchpad
+##deb-src http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main # bisigi PPA - Launchpad
+
+
+## blueman PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/blueman/ppa/ubuntu jaunty main # blueman PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/blueman/ppa/ubuntu jaunty main # blueman PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/blueman/ppa/ubuntu jaunty main # blueman PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/blueman/ppa/ubuntu jaunty main # blueman PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/blueman/ppa/ubuntu jaunty main # blueman PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/blueman/ppa/ubuntu jaunty main # blueman PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/blueman/ppa/ubuntu jaunty main # blueman PPA - Launchpad
+##deb-src http://ppa.launchpad.net/blueman/ppa/ubuntu jaunty main # blueman PPA - Launchpad
+
+
+## breathe-dev PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - Launchpad
+##deb-src http://ppa.launchpad.net/breathe-dev/ppa/ubuntu jaunty main # breathe-dev PPA - Launchpad
+
+
+## c-korn PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - Launchpad
+##deb-src http://ppa.launchpad.net/c-korn/vlc/ubuntu jaunty main # c-korn-vlc PPA - Launchpad
+
+
+## chmsee PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - Launchpad
+##deb-src http://ppa.launchpad.net/chmsee/jaunty/ubuntu jaunty main # chmsee PPA - Launchpad
+
+
+## chromium-daily PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - Launchpad
+##deb-src http://ppa.launchpad.net/chromium-daily/ppa/ubuntu jaunty main # chromium-daily PPA - Launchpad
+
+
+## debfx-virtualbox PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - Launchpad
+##deb-src http://ppa.launchpad.net/debfx/virtualbox/ubuntu jaunty main # debfx-virtualbox PPA - Launchpad
+
+
+## do-core PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/do-core/ppa/ubuntu jaunty main # do-core PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/do-core/ppa/ubuntu jaunty main # do-core PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/do-core/ppa/ubuntu jaunty main # do-core PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/do-core/ppa/ubuntu jaunty main # do-core PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/do-core/ppa/ubuntu jaunty main # do-core PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/do-core/ppa/ubuntu jaunty main # do-core PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/do-core/ppa/ubuntu jaunty main # do-core PPA - Launchpad
+##deb-src http://ppa.launchpad.net/do-core/ppa/ubuntu jaunty main # do-core PPA - Launchpad
+
+
+## exaile-devel PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - Launchpad
+##deb-src http://ppa.launchpad.net/exaile-devel/ppa/ubuntu jaunty main # exaile-devel PPA - Launchpad
+
+
+## galaxium PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/galaxium/ppa/ubuntu jaunty main # galaxium PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/galaxium/ppa/ubuntu jaunty main # galaxium PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/galaxium/ppa/ubuntu jaunty main # galaxium PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/galaxium/ppa/ubuntu jaunty main # galaxium PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/galaxium/ppa/ubuntu jaunty main # galaxium PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/galaxium/ppa/ubuntu jaunty main # galaxium PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/galaxium/ppa/ubuntu jaunty main # galaxium PPA - Launchpad
+##deb-src http://ppa.launchpad.net/galaxium/ppa/ubuntu jaunty main # galaxium PPA - Launchpad
+
+
+## gmchess PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gmchess/ppa/ubuntu jaunty main # gmchess PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gmchess/ppa/ubuntu jaunty main # gmchess PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gmchess/ppa/ubuntu jaunty main # gmchess PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gmchess/ppa/ubuntu jaunty main # gmchess PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gmchess/ppa/ubuntu jaunty main # gmchess PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gmchess/ppa/ubuntu jaunty main # gmchess PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gmchess/ppa/ubuntu jaunty main # gmchess PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gmchess/ppa/ubuntu jaunty main # gmchess PPA - Launchpad
+
+
+## geany-dev PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - Launchpad
+##deb-src http://ppa.launchpad.net/geany-dev/ppa/ubuntu jaunty main # geany-dev PPA - Launchpad
+
+
+## globalmenu-team PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu jaunty main # globalmenu-team PPA - Launchpad
+
+
+## gnome-colors-packagers PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnome-colors-packagers/ppa/ubuntu jaunty main # gnome-colors-packagers PPA - Launchpad
+
+
+## gnome-terminator PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu jaunty main # gnome-terminator PPA - Launchpad
+
+
+## gnote PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gnote/ppa/ubuntu jaunty main # gnote PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gnote/ppa/ubuntu jaunty main # gnote PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gnote/ppa/ubuntu jaunty main # gnote PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gnote/ppa/ubuntu jaunty main # gnote PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gnote/ppa/ubuntu jaunty main # gnote PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gnote/ppa/ubuntu jaunty main # gnote PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gnote/ppa/ubuntu jaunty main # gnote PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnote/ppa/ubuntu jaunty main # gnote PPA - Launchpad
+
+
+## gtg PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gtg/ppa/ubuntu jaunty main # gtg PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gtg/ppa/ubuntu jaunty main # gtg PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gtg/ppa/ubuntu jaunty main # gtg PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gtg/ppa/ubuntu jaunty main # gtg PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gtg/ppa/ubuntu jaunty main # gtg PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gtg/ppa/ubuntu jaunty main # gtg PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gtg/ppa/ubuntu jaunty main # gtg PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gtg/ppa/ubuntu jaunty main # gtg PPA - Launchpad
+
+
+## gwibber-daily PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu jaunty main # gwibber-daily PPA - Launchpad
+
+
+## gwibber-team PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gwibber-team/ppa/ubuntu jaunty main # gwibber-team PPA - Launchpad
+
+
+## ibus-dev PPA mirror list:
+
+deb http://ppa.launchpad.net/ibus-dev/ibus-1.2-jaunty/ubuntu jaunty main # ibus-dev PPA - Launchpad
+##deb-src http://ppa.launchpad.net/ibus-dev/ibus-1.2-jaunty/ubuntu jaunty main # ibus-dev PPA - Launchpad
+
+
+## liferea PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/liferea/ppa/ubuntu jaunty main # liferea PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/liferea/ppa/ubuntu jaunty main # liferea PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/liferea/ppa/ubuntu jaunty main # liferea PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/liferea/ppa/ubuntu jaunty main # liferea PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/liferea/ppa/ubuntu jaunty main # liferea PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/liferea/ppa/ubuntu jaunty main # liferea PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/liferea/ppa/ubuntu jaunty main # liferea PPA - Launchpad
+##deb-src http://ppa.launchpad.net/liferea/ppa/ubuntu jaunty main # liferea PPA - Launchpad
+
+
+## lyx PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/lyx/ppa/ubuntu jaunty main # lyx PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/lyx/ppa/ubuntu jaunty main # lyx PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/lyx/ppa/ubuntu jaunty main # lyx PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/lyx/ppa/ubuntu jaunty main # lyx PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/lyx/ppa/ubuntu jaunty main # lyx PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/lyx/ppa/ubuntu jaunty main # lyx PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/lyx/ppa/ubuntu jaunty main # lyx PPA - Launchpad
+##deb-src http://ppa.launchpad.net/lyx/ppa/ubuntu jaunty main # lyx PPA - Launchpad
+
+
+## markuz PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/markuz/ppa/ubuntu jaunty main # markuz PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/markuz/ppa/ubuntu jaunty main # markuz PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/markuz/ppa/ubuntu jaunty main # markuz PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/markuz/ppa/ubuntu jaunty main # markuz PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/markuz/ppa/ubuntu jaunty main # markuz PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/markuz/ppa/ubuntu jaunty main # markuz PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/markuz/ppa/ubuntu jaunty main # markuz PPA - Launchpad
+##deb-src http://ppa.launchpad.net/markuz/ppa/ubuntu jaunty main # markuz PPA - Launchpad
+
+
+## matthaeus123-gimp PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - Launchpad
+##deb-src http://ppa.launchpad.net/matthaeus123/mrw-gimp-svn/ubuntu jaunty main # matthaeus123-gimp PPA - Launchpad
+
+
+## midori PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/midori/ppa/ubuntu jaunty main # midori PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/midori/ppa/ubuntu jaunty main # midori PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/midori/ppa/ubuntu jaunty main # midori PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/midori/ppa/ubuntu jaunty main # midori PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/midori/ppa/ubuntu jaunty main # midori PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/midori/ppa/ubuntu jaunty main # midori PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/midori/ppa/ubuntu jaunty main # midori PPA - Launchpad
+##deb-src http://ppa.launchpad.net/midori/ppa/ubuntu jaunty main # midori PPA - Launchpad
+
+
+## moovida-packagers PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/moovida-packagers/ppa/ubuntu jaunty main # moovida-packagers PPA - Launchpad
+
+
+## njpatel-clutter PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - Launchpad
+##deb-src http://ppa.launchpad.net/njpatel/clutter-edgers/ubuntu jaunty main # njpatel-clutter PPA - Launchpad
+
+
+## shutter PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/shutter/ppa/ubuntu jaunty main # shutter PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/shutter/ppa/ubuntu jaunty main # shutter PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/shutter/ppa/ubuntu jaunty main # shutter PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/shutter/ppa/ubuntu jaunty main # shutter PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/shutter/ppa/ubuntu jaunty main # shutter PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/shutter/ppa/ubuntu jaunty main # shutter PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/shutter/ppa/ubuntu jaunty main # shutter PPA - Launchpad
+##deb-src http://ppa.launchpad.net/shutter/ppa/ubuntu jaunty main # shutter PPA - Launchpad
+
+
+## specto PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/specto/ppa/ubuntu jaunty main # specto PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/specto/ppa/ubuntu jaunty main # specto PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/specto/ppa/ubuntu jaunty main # specto PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/specto/ppa/ubuntu jaunty main # specto PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/specto/ppa/ubuntu jaunty main # specto PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/specto/ppa/ubuntu jaunty main # specto PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/specto/ppa/ubuntu jaunty main # specto PPA - Launchpad
+##deb-src http://ppa.launchpad.net/specto/ppa/ubuntu jaunty main # specto PPA - Launchpad
+
+
+## spicebird PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/spicebird/ppa/ubuntu jaunty main # spicebird PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/spicebird/ppa/ubuntu jaunty main # spicebird PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/spicebird/ppa/ubuntu jaunty main # spicebird PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/spicebird/ppa/ubuntu jaunty main # spicebird PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/spicebird/ppa/ubuntu jaunty main # spicebird PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/spicebird/ppa/ubuntu jaunty main # spicebird PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/spicebird/ppa/ubuntu jaunty main # spicebird PPA - Launchpad
+##deb-src http://ppa.launchpad.net/spicebird/ppa/ubuntu jaunty main # spicebird PPA - Launchpad
+
+
+## team-xbmc PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - Launchpad
+##deb-src http://ppa.launchpad.net/team-xbmc/ppa/ubuntu jaunty main # team-xbmc PPA - Launchpad
+
+
+## tp-fan PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - Launchpad
+##deb-src http://ppa.launchpad.net/tp-fan/ppa/ubuntu jaunty main # tp-fan PPA - Launchpad
+
+
+## transmissionbt PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - Launchpad
+##deb-src http://ppa.launchpad.net/transmissionbt/ppa/ubuntu jaunty main # transmissionbt PPA - Launchpad
+
+
+## tualatrix PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - Launchpad
+##deb-src http://ppa.launchpad.net/tualatrix/ppa/ubuntu jaunty main # tualatrix PPA - Launchpad
+
+
+## ubuntu-mozilla-security PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - Launchpad
+##deb-src http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu jaunty main # ubuntu-mozilla-security PPA - Launchpad
+
+
+## webkit-team PPA mirror list:
+
+deb http://mirrors.sohu.com/ubuntu-cn/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/webkit-team/ppa/ubuntu jaunty main # webkit-team PPA - Launchpad
+
+
+## Defaut off:
+
+## compiz PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/compiz/ppa/ubuntu jaunty main # compiz PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/compiz/ppa/ubuntu jaunty main # compiz PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/compiz/ppa/ubuntu jaunty main # compiz PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/compiz/ppa/ubuntu jaunty main # compiz PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/compiz/ppa/ubuntu jaunty main # compiz PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/compiz/ppa/ubuntu jaunty main # compiz PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/compiz/ppa/ubuntu jaunty main # compiz PPA - Launchpad
+##deb-src http://ppa.launchpad.net/compiz/ppa/ubuntu jaunty main # compiz PPA - Launchpad
+
+
+## debfx-qt PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/debfx/qt/ubuntu jaunty main # debfx-qt PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/debfx/qt/ubuntu jaunty main # debfx-qt PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/debfx/qt/ubuntu jaunty main # debfx-qt PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/debfx/qt/ubuntu jaunty main # debfx-qt PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/debfx/qt/ubuntu jaunty main # debfx-qt PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/debfx/qt/ubuntu jaunty main # debfx-qt PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/debfx/qt/ubuntu jaunty main # debfx-qt PPA - Launchpad
+##deb-src http://ppa.launchpad.net/debfx/qt/ubuntu jaunty main # debfx-qt PPA - Launchpad
+
+
+## firerabbit PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - Launchpad
+##deb-src http://ppa.launchpad.net/firerabbit/ppa/ubuntu jaunty main # firerabbit PPA - Launchpad
+
+
+## gnome-games-experimental PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gnome-games-experimental/ppa/ubuntu jaunty main # gnome-games-experimental PPA - Launchpad
+
+
+## gstreamer-developers PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/gstreamer-developers/ppa/ubuntu jaunty main # gstreamer-developers PPA - Launchpad
+
+
+## pidgin-developers PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - Launchpad
+##deb-src http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu jaunty main # pidgin-developers PPA - Launchpad
+
+## kubuntu-ppa PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - Launchpad
+##deb-src http://ppa.launchpad.net/kubuntu-ppa/ppa/ubuntu jaunty main # kubuntu-ppa PPA - Launchpad
+
+## kubuntu-ppa PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/kubuntu-backports/ppa/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - Launchpad
+##deb-src http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu jaunty main # kubuntu-ppa PPA - Launchpad
+
+
+## moblin PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/moblin/ppa/ubuntu jaunty main # moblin PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/moblin/ppa/ubuntu jaunty main # moblin PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/moblin/ppa/ubuntu jaunty main # moblin PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/moblin/ppa/ubuntu jaunty main # moblin PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/moblin/ppa/ubuntu jaunty main # moblin PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/moblin/ppa/ubuntu jaunty main # moblin PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/moblin/ppa/ubuntu jaunty main # moblin PPA - Launchpad
+##deb-src http://ppa.launchpad.net/moblin/ppa/ubuntu jaunty main # moblin PPA - Launchpad
+
+
+## mono-edge PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - Launchpad
+##deb-src http://ppa.launchpad.net/mono-edge/ppa/ubuntu jaunty main # mono-edge PPA - Launchpad
+
+
+## rvm-mplayer PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - Launchpad
+##deb-src http://ppa.launchpad.net/rvm/mplayer/ubuntu jaunty main # rvm-mplayer PPA - Launchpad
+
+## sudbury-team PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - Launchpad
+##deb-src http://ppa.launchpad.net/sudbury-team/ppa/ubuntu jaunty main # sudbury-team PPA - Launchpad
+
+
+## telepathy PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/telepathy/ppa/ubuntu jaunty main # telepathy PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/telepathy/ppa/ubuntu jaunty main # telepathy PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/telepathy/ppa/ubuntu jaunty main # telepathy PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/telepathy/ppa/ubuntu jaunty main # telepathy PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/telepathy/ppa/ubuntu jaunty main # telepathy PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/telepathy/ppa/ubuntu jaunty main # telepathy PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/telepathy/ppa/ubuntu jaunty main # telepathy PPA - Launchpad
+##deb-src http://ppa.launchpad.net/telepathy/ppa/ubuntu jaunty main # telepathy PPA - Launchpad
+
+
+
+## rvm-smplayer PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - Launchpad
+##deb-src http://ppa.launchpad.net/rvm/smplayer/ubuntu jaunty main # rvm-smplayer PPA - Launchpad
+
+
+## ubuntu-x-swat PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - Launchpad
+##deb-src http://ppa.launchpad.net/ubuntu-x-swat/x-updates/ubuntu jaunty main # ubuntu-x-swat PPA - Launchpad
+
+
+## vicox PPA mirror list:
+
+#deb http://mirrors.sohu.com/ubuntu-cn/vicox/ppa/ubuntu jaunty main # vicox PPA - ubuntucn - SOHU Mirror
+##deb-src http://mirrors.sohu.com/ubuntu-cn/vicox/ppa/ubuntu jaunty main # vicox PPA - ubuntucn - SOHU Mirror
+
+#deb http://ubuntu.cn99.com/ubuntu-cn/vicox/ppa/ubuntu jaunty main # vicox PPA - ubuntucn - CN99/163 Mirror
+##deb-src http://ubuntu.cn99.com/ubuntu-cn/vicox/ppa/ubuntu jaunty main # vicox PPA - ubuntucn - CN99/163 Mirror
+
+##deb http://archive.ubuntu.org.cn/ubuntu-cn/vicox/ppa/ubuntu jaunty main # vicox PPA - ubuntucn - archive.ubuntu.org.cn
+##deb-src http://archive.ubuntu.org.cn/ubuntu-cn/vicox/ppa/ubuntu jaunty main # vicox PPA - ubuntucn - archive.ubuntu.org.cn
+
+##deb http://ppa.launchpad.net/vicox/ppa/ubuntu jaunty main # vicox PPA - Launchpad
+##deb-src http://ppa.launchpad.net/vicox/ppa/ubuntu jaunty main # vicox PPA - Launchpad
+
+
