@@ -23,3 +23,5 @@ if [ -f /etc/apt/sources.list.d/ubuntucn.list ]; then
 	rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
 
+printf "Please reload your software information by \`sudo aptitude update' or by synaptic.\n"
+
