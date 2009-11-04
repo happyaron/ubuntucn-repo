@@ -4,9 +4,9 @@ set -e
 
 RELEASE=`lsb_release -cs`
 ppalist="awn-testing bisigi blueman breathe capricorn-lyx chromium-daily c-korn-vlc clutter-edgers compiz do-core exaile-devel firerabbit geany gmchess gnome-colors gnome-games-experimental gnome-terminator gnote-stable gscrot-shutter gstreamer gwibber-daily ibus-dev kubuntu-updates liferea markuz matthaeus123-gimp midori moblin-compatibilty mono-edge moovida mozilla-security pidgin rvm specto sudbury telepathy tualatrix ubuntu-x vicox webkit xbmc-linux"
-onlist="awn-testing bisigi blueman breathe-dev chromium-daily do-core exaile-devel gmchess geany-dev gnome-colors-packagers gnome-terminator gnote gwibber-daily kubuntu-ppa liferea markuz midori pidgin-developers shutter specto sudbury-team telepathy team-xbmc tualatrix ubuntu-mozilla-security webkit-team wine-cn"
+onlist="awn-testing bisigi blueman breathe-dev do-core exaile-devel gmchess geany-dev gnome-colors-packagers gnome-terminator gnote gwibber-daily kubuntu-ppa liferea markuz midori pidgin-developers shutter specto sudbury-team telepathy team-xbmc tualatrix ubuntu-mozilla-security webkit-team wine-cn"
 specialon="c-korn/vlc matthaeus123/mrw-gimp-svn njpatel/clutter-edgers"
-offlist="compiz firerabbit gnome-games-experimental gstreamer-developers moblin mono-edge rvm vicox ubuntu-x-swat vicox xorg-edgers"
+offlist="compiz chromium-daily firerabbit gnome-games-experimental gstreamer-developers moblin mono-edge rvm vicox ubuntu-x-swat vicox xorg-edgers"
 
 if [ -x /usr/bin/apt-key ]; then
     /usr/bin/apt-key list > /usr/share/ubuntucn-repo/origkey.list
