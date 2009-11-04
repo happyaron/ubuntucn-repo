@@ -23,9 +23,6 @@ if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
 	rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
 
-if [ -f /usr/share/ubuntucn-repo/origkey.list ]; then
-	rm -f /usr/share/ubuntucn-repo/origkey.list
-fi
 
 while true; do
 	printf "Reload software infomation now?(y/n)";
