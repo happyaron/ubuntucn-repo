@@ -23,14 +23,3 @@ if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
 	rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
 
-
-while true; do
-	printf "Reload software infomation now?(y/n)";
-	read input2;
-	case ${input2} in
-		[Yy]* ) printf "You have chosen yes, reload now.\n";aptitude update >> /dev/null;printf "Reloaded successfully, finish.\n";break;;
-		[Nn]* ) printf "You have chosen no, finish.\n";exit;;
-		* ) printf "Default to no, finish.\n";exit;;
-	esac
-done
-

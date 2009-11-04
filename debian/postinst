@@ -62,12 +62,3 @@ if [ ! -e /etc/apt/sources.list.d/ubuntucn.list ]; then
 
 fi
 
-while true; do
-	printf "Reload software infomation now?(y/n)";
-	read input;
-	case ${input} in
-		[Yy]* ) printf "You have chosen yes, reload now.\n";aptitude update >> /dev/null;printf "Reloaded successfully, finish installation.\n";break;;
-		[Nn]* ) printf "You have chosen no, finish installation.\n";exit;;
-		* ) printf "Default to no, finish installation.\n";exit;;
-	esac
-done
