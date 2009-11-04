@@ -19,7 +19,7 @@ if [ -x /usr/bin/apt-key ]; then  # apt-key can only accept one argument each ti
 	done
 fi
 
-if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
+if [ -f /etc/apt/sources.list.d/ubuntucn.list ]; then
 	rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
 
