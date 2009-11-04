@@ -1,6 +1,6 @@
 #!/bin/sh
 
-idlist="349F751C 0C5A2783 4B2C459E BF810CD5 881574DE 951DC1E2 45FFBBBA 40130828 2FAB176C 4E5E17B5 42C24D89 62F1201A 77558DD0 43CBFCC0 1654E635 7854A3A9 B3641232 DA6DEEAA 04F95913 E8D31A30 74F39406 1BD3A65C 5AAB5553 051D8B58 7AC9B38F 72D340A3 AA1C92B0 985E0E11 8AC93F7A 412F055D 3FA98B0D 1F808920 1626BDB2 A69241F1 108C0E08 48847B29 26C2E075 94DCBA56 A1F196A8 009ED615 3CB47FB1 792BCEAA A8BD786D 91E7EE5E FA3A1271 59BE7ED0 365C5CA1 0624A220 7EBC211F 53FFCC28 AF1CDFA9 2D9A3C5B 03E02400"
+idlist="349F751C 0C5A2783 BF810CD5 881574DE 951DC1E2 45FFBBBA 7613768D 4E5E17B5 42C24D89 77558DD0 43CBFCC0 1654E635 7854A3A9 B3641232 04F95913 E8D31A30 74F39406 1BD3A65C 5AAB5553 051D8B58 72D340A3 985E0E11 8AC93F7A 412F055D 3FA98B0D 1F808920 1626BDB2 A69241F1 108C0E08 48847B29 26C2E075 94DCBA56 A1F196A8 009ED615 3CB47FB1  A8BD786D 91E7EE5E FA3A1271 0624A220 7EBC211F 53FFCC28 AF1CDFA9 2D9A3C5B 03E02400 94625C2F"
 
 rmlist=$idlist
 
@@ -22,12 +22,18 @@ fi
 if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
 	rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
-if [ -L /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
-	rm -f /etc/apt/sources.list.d/medibuntu-ubuntucn.list
-fi
-if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
-	rm -f /etc/apt/sources.list.d/ppa-ubuntucn.list
+
+if [ -f /usr/share/ubuntucn-repo/origkey.list ]; then
+	rm -f /usr/share/ubuntucn-repo/origkey.list
 fi
 
-printf "You should run \`sudo aptitude update' or reload source list via synaptic after this package's removal.\n"
+while true; do
+	printf "Reload software infomation now?(y/n)";
+	read input2;
+	case ${input2} in
+		[Yy]* ) printf "You have chosen yes, reload now.\n";aptitude update >> /dev/null;printf "Reloaded successfully, finish.\n";break;;
+		[Nn]* ) printf "You have chosen no, finish.\n";exit;;
+		* ) printf "Default to no, finish.\n";exit;;
+	esac
+done
 

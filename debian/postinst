@@ -3,14 +3,17 @@ set -e
 #. /usr/share/debconf/confmodule
 
 RELEASE=`lsb_release -cs`
-ppalist="amule-stable awn-testing bisigi blueman breathe capricorn-lyx chmsee chromium-daily c-korn-vlc clutter-edgers compiz debfx-vbox do-core exaile-devel firerabbit galaxium geany globalmenu gmchess gnome-colors gnome-games-experimental gnome-terminator gnote-stable gscrot-shutter gstreamer gtg gwibber-daily gwibber ibus-dev kubuntu-updates liferea markuz matthaeus123-gimp midori moblin-compatibilty mono-edge moovida mozilla-security pidgin rvm specto spicebird sudbury telepathy tp-fan transmissionbt tualatrix ubuntu-x vicox webkit xbmc-linux"
+ppalist="awn-testing bisigi blueman breathe capricorn-lyx chromium-daily c-korn-vlc clutter-edgers compiz do-core exaile-devel firerabbit geany gmchess gnome-colors gnome-games-experimental gnome-terminator gnote-stable gscrot-shutter gstreamer gwibber-daily ibus-dev kubuntu-updates liferea markuz matthaeus123-gimp midori moblin-compatibilty mono-edge moovida mozilla-security pidgin rvm specto sudbury telepathy tualatrix ubuntu-x vicox webkit xbmc-linux"
+onlist="awn-testing bisigi blueman breathe-dev chromium-daily do-core exaile-devel gmchess geany-dev gnome-colors-packagers gnome-terminator gnote gwibber-daily kubuntu-ppa liferea markuz midori moblin pidgin-developers shutter specto sudbury-team telepathy team-xbmc tualatrix ubuntu-mozilla-security webkit-team wine-cn"
+specialon="c-korn/vlc matthaeus123/mrw-gimp-svn njpatel/clutter-edgers"
+offlist="compiz firerabbit gnome-games-experimental gstreamer-developers mono-edge rvm vicox ubuntu-x-swat vicox xorg-edgers"
 
 if [ -x /usr/bin/apt-key ]; then
     /usr/bin/apt-key list > /usr/share/ubuntucn-repo/origkey.list
-    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ubuntucn-keyring.gpg > /dev/null;
-    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/medibuntu-keyring.gpg > /dev/null;
+    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ubuntucn-keyring.asc > /dev/null;
+    /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/medibuntu-keyring.asc > /dev/null;
     for tmp in $ppalist; do
-        /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ppa/${tmp}.gpg > /dev/null
+        /usr/bin/apt-key add /usr/share/keyrings/ubuntucn-repo/ppa/${tmp}.asc > /dev/null
     done
 fi
 
@@ -18,39 +21,53 @@ if [ -L /etc/apt/sources.list.d/ubuntucn.list ]; then
    rm -f /etc/apt/sources.list.d/ubuntucn.list
 fi
 
-if [ -L /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
-   rm -f /etc/apt/sources.list.d/medibuntu-ubuntucn.list
-fi
-
-if [ -L /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
-   rm -f /etc/apt/sources.list.d/ppa-ubuntucn.list
-fi
-setmirror="sohu"
+setmirror="mirrors.sohu.com/ubuntu-cn"
 
 while true; do
-	printf "Which mirror do you want to choose? Choose a number or press any other key to accept default.\n 1 SOHU mirror(default)\n 2 CN99/163 mirror\n";
+	printf "Which mirror do you want to choose? Choose a number or press any other key to accept default.\n 1 SOHU mirror(default)\n 2 CN99/163 mirror\n 3 SRT mirror\n 4 LUPA mirror\n 5 UbuntuCN archive\n";
 	read input;
 	case $input in
 		1) printf "You have chosen SOHU mirror.\n"
-			setmirror="sohu"
+			setmirror="mirrors.sohu.com/ubuntu-cn"
 			break;;
 		2) printf "You have chosen CN99/163 mirror.\n"
-			setmirror="cn99"
+			setmirror="mirrors.163.com/ubuntu-cn"
+			break;;
+		3) printf "You have chosen SRT mirror.\n"
+			setmirror="ubuntu.srt.cn/ubuntu-cn"
+			break;;
+		4) printf "You have chosen LUPA mirror.\n"
+			setmirror="mirror.lupaworld.com/ubuntu/ubuntu-cn"
+			break;;
+		5) printf "You have chosen UbuntuCN archive.\n"
+			setmirror="archive.ubuntu.org.cn/ubuntu-cn"
 			break;;
 		*) printf "Default to SOHU mirror."
-			setmirror="sohu"
+			setmirror="mirrors.sohu.com/ubuntu-cn"
 			break;;
 	esac
 done
-printf "You should run \`sudo aptitude update' or reload source list via synaptic after this package's installation.\n"
 
 if [ ! -e /etc/apt/sources.list.d/ubuntucn.list ]; then
-	ln -s /usr/share/ubuntucn-repo/sources/${setmirror}/ubuntucn/ubuntucn.${RELEASE} /etc/apt/sources.list.d/ubuntucn.list;
-fi
-if [ ! -e /etc/apt/sources.list.d/medibuntu-ubuntucn.list ]; then
-	ln -s /usr/share/ubuntucn-repo/sources/${setmirror}/medibuntu/medibuntu.${RELEASE} /etc/apt/sources.list.d/medibuntu-ubuntucn.list;
-fi
-if [ ! -e /etc/apt/sources.list.d/ppa-ubuntucn.list ]; then
-	ln -s /usr/share/ubuntucn-repo/sources/${setmirror}/ppa/ppa.${RELEASE} /etc/apt/sources.list.d/ppa-ubuntucn.list;
+
+	echo "deb http://${setmirror}/medibuntu/ ${RELEASE} free non-free" >> /etc/apt/sources.list.d/ubuntucn.list
+	echo "deb http://${setmirror}/ubuntu-china-repo/ppa/ubuntu/ ${RELEASE} main" >> /etc/apt/sources.list.d/ubuntucn.list
+	echo "deb http://${setmirror}/ibus-dev/ibus-1.2-${RELEASE}/ubuntu/ ${RELEASE} main" >> /etc/apt/sources.list.d/ubuntucn.list
+	for list in ${onlist}; do
+		echo "deb http://${setmirror}/${list}/ppa/ubuntu/ ${RELEASE} main" >> /etc/apt/sources.list.d/ubuntucn.list;
+	done
+	for list in ${offlist}; do
+		echo "#deb http://${setmirror}/${list}/ppa/ubuntu/ ${RELEASE} main" >> /etc/apt/sources.list.d/ubuntucn.list;
+	done
+
 fi
 
+while true; do
+	printf "Reload software infomation now?(y/n)";
+	read input;
+	case ${input} in
+		[Yy]* ) printf "You have chosen yes, reload now.\n";aptitude update >> /dev/null;printf "Reloaded successfully, finish installation.\n";break;;
+		[Nn]* ) printf "You have chosen no, finish installation.\n";exit;;
+		* ) printf "Default to no, finish installation.\n";exit;;
+	esac
+done
