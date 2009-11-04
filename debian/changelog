@@ -1,9 +1,9 @@
-ubuntucn-repo (2009.11.03-ppa1) hardy; urgency=low
+ubuntucn-repo (2009.11.05) hardy; urgency=low
 
   * New release.
   * Tune source.list.
 
- -- Aron Xu <happyaron.xu@gmail.com>  Wed, 04 Nov 2009 18:50:21 +0800
+ -- Aron Xu <happyaron.xu@gmail.com>  Wed, 04 Nov 2009 21:17:21 +0800
 
 ubuntucn-repo (2009.09.27) hardy; urgency=low
 
